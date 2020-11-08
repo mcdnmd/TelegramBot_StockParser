@@ -8,7 +8,7 @@ namespace StockParser
     {
         public static void Main(string[] args)
         {
-            Scheduler.LaunchScheduler();
+            Scheduler.Launch();
         }
     }
 }

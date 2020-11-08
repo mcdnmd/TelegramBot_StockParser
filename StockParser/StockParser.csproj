@@ -43,13 +43,11 @@
         <Compile Include="App\BotTask\BotTask.cs" />
         <Compile Include="App\BotTask\IBotTask.cs" />
         <Compile Include="App\Scheduler.cs" />
+        <Compile Include="Domain\Symbol.cs" />
+        <Compile Include="Infrastructure\DataBaseHandler.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
-    </ItemGroup>
-    <ItemGroup>
-      <Folder Include="Domain" />
-      <Folder Include="Infrastructure" />
-      <Folder Include="View" />
+        <Compile Include="View\Dispatcher.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
