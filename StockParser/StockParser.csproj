@@ -45,7 +45,7 @@
     <Compile Include="App\BotTask\IBotTask.cs" />
     <Compile Include="App\Scheduler.cs" />
     <Compile Include="Domain\Symbol.cs" />
-    <Compile Include="Infrastructure\DataBaseHandler.cs" />
+    <Compile Include="Infrastructure\PostgreHandler.cs" />
     <Compile Include="Infrastructure\IDataBase.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
