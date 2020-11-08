@@ -39,6 +39,9 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="App\BotLogic.cs" />
+        <Compile Include="App\BotTaskQueue.cs" />
+        <Compile Include="App\BotTask\BotTask.cs" />
+        <Compile Include="App\BotTask\IBotTask.cs" />
         <Compile Include="App\Scheduler.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />

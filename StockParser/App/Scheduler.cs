@@ -5,10 +5,10 @@ namespace StockParser.App
 {
     public static class Scheduler
     {
-        private static TimerCallback timerCallback = new TimerCallback(UpdateStockData);
+        private static TimerCallback timerCallback = UpdateStockData;
         private static Timer timer;
 
-        public static void LaunchScheduler()
+        public static void Launch()
         {
             timer = new Timer(timerCallback, null, 0, 2000);
         }
